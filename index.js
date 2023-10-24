@@ -1,3 +1,7 @@
+
+/***** 
+ String övning 
+  ****/
 const firstname = "david";
 const lastname = "heidari";
 const age = "30";
@@ -30,9 +34,36 @@ let author = "J.R.R. Tolkien";
 let publishYear = 1954;
 let publisher = "Allen & Unwin";
 
+
+/***** 
+ Number övning 
+  ****/
+const num1 = 10.4;
+const num2 = 4.5;
+
+// Räkna ut area och omkrets på en cirkel
+
+const radie = 5;
+const pi = Math.PI;
+
+// Beräknar omkretsen
+const omkrets = 2 * pi * radie;
+const area = pi * Math.pow(radie, 2);
+
+console.log("Arean av cirkel med radien 5:", Math.floor(area))
+console.log("Omkretsen på en cicle med radie 5: ", Math.floor(omkrets));
+
+
+/**************************************/
+console.log("Minus:", Math.round(num1 - num2));
+console.log("Plus:", num1 + num2);
+console.log("Delat:", Math.round(num1 / num2));
+console.log("Modjul:", Math.floor(num1 % num2));
+console.log("multi:", Math.ceil(num1 * num2));
+
 // Jag använder \n (shift,alt och 7) för att bryta rad
 
-console.log(`Boktitel: ${booktitle}\nFörfattare: ${author}\nUtgivningsår: ${publishYear}\nUtgivare: ${publisher}`)
+
 
 console.log(`Boktitel: ${booktitle}\nFörfattare: ${author}\nUtgivningsår: ${publishYear}\nUtgivare: ${publisher}`);
 
